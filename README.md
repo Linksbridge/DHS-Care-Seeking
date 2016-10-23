@@ -6,7 +6,7 @@ This repo provides R code examples for extracting and summarizing data on care-s
 3.	You will want to download the individual recode file (which is typically the women’s questionnaire) as this contains the questions related to care seeking for fever and cough
 4.	Download data
 5.	The downloaded folder will contain a number of files, including:
-a.	DCT File - This indicates what data type each variable is. We did not use it in our analysis.
+    a.	DCT File - This indicates what data type each variable is. We did not use it in our analysis.
     b.	DO File – Stata file that applies labels to each of the variables in the data set
     c.	Word Document – Gives an overview of the data set, number of records, variables names and descriptions
     d.	DTA File – This is the data file; contains all variables and all records. Needs to be opened with Stata or R
