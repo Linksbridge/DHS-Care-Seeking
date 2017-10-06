@@ -14,10 +14,4 @@ This repo provides R code examples for extracting and summarizing data on care-s
     f.	FRW File – Contains frequencies for each possible value of each variable. Weighted. 
     g.	MAP File – Maps the value labels of each variable value. 
 6.	Open the data. You will need statistical software to open and analyze data. We have included R code in this repo as an example. 
-7.	Pull the data needed for care seeking patterns. The variable numbers are:
-    a.	Barriers to Care – v467a-m
-    b.	Place of initial care-seeking for child's diarrhea: h44a_1
-    c.	Place of initial care-seeking for child's fever:  h46a_1
-    d.	Place of HIV test (adult): v829
-    e.	Place of antenatal HIV test: v842
-8. The files "Barrier to Care Function," "Antenatal HIV Test Function," "HIV Test Function," "Initial Diarrhea Function," and "Initial Fever Function" may serve as examples to help get you started on your own analysis. These R functions utilize the XLConnect package in order to export data to an excel file. In the examples, each function results in an excel workbook wherein each country has its own tab. If you desire a similar output, you may also wish to utilize the XLConnect package, as we have done. If so, you will need to have Java installed on your machine, as XLConnect depends on Java. If you need to download Java, make sure Java and R have matching architectures (i.e., if you have the 64 bit version of R you will require the 64 bit version of Java). 
+7.	The files analyzeDHS.R and dhs_functions.R provide the code necessary to analyze the DHS data. Download both files and make sure to save them to the same folder. The analyzeDHS.R file is the only file that needs to be opened in R. There are instructions included in the file. The dhs_functions.R file does not need to be opened and should not be edited. The script requires that the user is an administrator of their computer. If they are not, the need to run Rstudio as an administrator. Instructions to do so are provided in the PPA How-To Guide
