@@ -15,3 +15,6 @@ This repo provides R code examples for extracting and summarizing data on care-s
     g.	MAP File – Maps the value labels of each variable value. 
 6.	Open the data. You will need statistical software to open and analyze data. We have included R code in this repo as an example. 
 7.	The files analyzeDHS.R and dhs_functions.R provide the code necessary to analyze the DHS data. Download both files and make sure to save them to the same folder. The analyzeDHS.R file is the only file that needs to be opened in R. There are instructions included in the file. The dhs_functions.R file does not need to be opened and should not be edited. The script requires that the user is an administrator of their computer. If they are not, the need to run Rstudio as an administrator. Instructions to do so are provided in the PPA How-To Guide.
+
+Acknowledgements:
+Anna Farrell-Sherman wrote, developed and led testing of this script. 
